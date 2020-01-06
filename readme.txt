@@ -40,4 +40,4 @@ test_merge_eda for visualizing test data
 k_notebook is implementation of gradient boosting
 
 
-requirement min. 16GB RAM
+requirement min. 16GB RAM, best with gpu
