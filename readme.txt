@@ -38,3 +38,6 @@ train_test_merge for combining multiple csv and make new csv train_merge and tes
 train_merge_eda for visualizing train data
 test_merge_eda for visualizing test data
 k_notebook is implementation of gradient boosting
+
+
+requirement min. 16GB RAM
