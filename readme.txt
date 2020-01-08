@@ -37,7 +37,7 @@ NOTE: dataset source : https://www.kaggle.com/c/ashrae-energy-prediction/data
 train_test_merge for combining multiple csv and make new csv train_merge and test_merge
 train_merge_eda for visualizing train data
 test_merge_eda for visualizing test data
-k_notebook is implementation of gradient boosting
+LGBM_initial
 
 
-requirement min. 16GB RAM, best with gpu
+requirement min. 8GB RAM, best with gpu
