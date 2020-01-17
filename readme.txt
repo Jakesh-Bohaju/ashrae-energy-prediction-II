@@ -1,6 +1,6 @@
 ASHRAE energy prediction II
 
-Files
+Dataset Detail
 train.csv
 building_id - Foreign key for the building metadata.
 meter - The meter id code. Read as {0: electricity, 1: chilledwater, 2: steam, 3: hotwater}. Not every building has all meter types.
@@ -34,10 +34,19 @@ timestamp - Timestamps for the test data period
 NOTE: dataset source : https://www.kaggle.com/c/ashrae-energy-prediction/data
 
 
-train_test_merge for combining multiple csv and make new csv train_merge and test_merge
-train_merge_eda for visualizing train data
-test_merge_eda for visualizing test data
-LGBM_initial
+Installation
+- pip install lightgbm
+- pip install tqdm
+
+Execution
+- Download dataset from above dataset source link and extract dataset to datasets/ashrae-energy-prediction/
+- for eda analysis, open train_merge_eda file on jupyter notebook
+- final model is implemented in kaggle notebook. so open kaggle and copy notebook final model implementation, add ASHRAE dataset on input by clicking add bottom found on the top. then execute for feature selection, training & predicting validation and test dataset
+
+Subnission file
+- You can find submission file at
+--- light gbm - https://cutt.ly/HrcJMll
+--- linear regression - https://cutt.ly/ArcJ9ZB
 
 
 requirement min. 8GB RAM, best with gpu
